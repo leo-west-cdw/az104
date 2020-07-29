@@ -23,7 +23,7 @@
             "type": "String"
         },
         "networkInterfaces_backendserver_2_889_name": {
-            "defaultValue": "backendserver_2_889",
+            "defaultValue": "backendserver2889",
             "type": "String"
         },
         "publicIPAddresses_backendSERVER_ip_name": {
@@ -280,7 +280,7 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('backendserver')), '_OsDisk_1_ef3ab3c577ea4dd5827852baae056008')]",
+                        "name": "[concat(variables('backendserver'), '_OsDisk_1_ef3ab3c577ea4dd5827852baae056008')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
