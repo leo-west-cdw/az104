@@ -291,7 +291,7 @@
                     "dataDisks": []
                 },
                 "osProfile": {
-                    "computerName": "[variables('backendserver'))]",
+                    "computerName": "[variables('backendserver')]",
                     "adminUsername": "beardmin",
                     "adminPassword": "mM%Vc!562yTj",
                     "windowsConfiguration": {
