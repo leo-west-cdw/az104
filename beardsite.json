@@ -52,7 +52,7 @@
         }
     },
     "variables": {
-        "backendserver":"virtualMachines_backendSERVER2_name"
+        "backendserver":"backendSERVER2"
     },
     "resources": [
         {
